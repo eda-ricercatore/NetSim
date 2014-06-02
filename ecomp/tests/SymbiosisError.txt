@@ -1,0 +1,12 @@
+=================================
+filename: SymbiosisError.txt
+=================================
+Test for Symbiosis:
+
+utility.AssertionException: ERROR!!! costMatrix does not exist. Use setMatrix to set one
+	at utility.Assertion.asrt(Assertion.java:43)
+	at population.EdgeCostMatrix.getCost(EdgeCostMatrix.java:121)
+	at population.Chromosome.getAdjacencyMatrix(Chromosome.java:695)
+	at ecomp.NetworkGAImp.symbiosis(NetworkGAImp.java:1165)
+	at TestSymbiosis.testSymbiosis(TestSymbiosis.java:161)
+	at TestSymbiosis.main(TestSymbiosis.java:53)

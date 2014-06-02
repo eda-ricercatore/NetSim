@@ -1,0 +1,104 @@
+==================================
+filename: SymbiosisNormal.txt
+==================================
+Test for Symbiosis:
+
+Testing commensalism
+=============================================================
+
+Generations required for repair is 3
+Probability of failure and Probability threshold are 0.0 and 0.0 respectively
+param is of the right size; size of client0
+Label to be set is client0
+Capacity of node is 0.0
+Efficiency to be set is 0.0
+The new coordinates are (1,2)
+Generations required for repair is 3
+Probability of failure and Probability threshold are 0.0 and 0.0 respectively
+param is of the right size; size of client1
+Label to be set is client1
+Capacity of node is 0.0
+Efficiency to be set is 0.0
+The new coordinates are (1,2)
+Generations required for repair is 3
+Probability of failure and Probability threshold are 0.0 and 0.0 respectively
+param is of the right size; size of client2
+Label to be set is client2
+Capacity of node is 0.0
+Efficiency to be set is 0.0
+The new coordinates are (1,2)
+Generations required for repair is 3
+Probability of failure and Probability threshold are 0.0 and 0.0 respectively
+param is of the right size; size of client3
+Label to be set is client3
+Capacity of node is 0.0
+Efficiency to be set is 0.0
+The new coordinates are (1,2)
+Generations required for repair is 3
+Probability of failure and Probability threshold are 0.0 and 0.0 respectively
+param is of the right size; size of client4
+Label to be set is client4
+Capacity of node is 0.0
+Efficiency to be set is 0.0
+The new coordinates are (1,2)
+Generations required for repair is 3
+Probability of failure and Probability threshold are 0.0 and 0.0 respectively
+param is of the right size; size of client5
+Label to be set is client5
+Capacity of node is 0.0
+Efficiency to be set is 0.0
+The new coordinates are (1,2)
+Generations required for repair is 3
+Probability of failure and Probability threshold are 0.0 and 0.0 respectively
+param is of the right size; size of client6
+Label to be set is client6
+Capacity of node is 0.0
+Efficiency to be set is 0.0
+The new coordinates are (1,2)
+Number of Nodes in this Chromosome is correct
+noServer and noClient are positive
+Number of Nodes in this Chromosome is correct
+noServer and noClient are positive
+Size of the network is 7
+Access to desired Node is proper
+Size of the network is 8
+Access to desired Node is proper
+Size of the network is 9
+Access to desired Node is proper
+Size of the network is 10
+Access to desired Node is proper
+Size of the network is 11
+Access to desired Node is proper
+Size of the network is 12
+Access to desired Node is proper
+Size of the network is 13
+Access to desired Node is proper
+Size of the network is 7
+Access to desired Node is proper
+Size of the network is 8
+Access to desired Node is proper
+Size of the network is 9
+Access to desired Node is proper
+Size of the network is 10
+Access to desired Node is proper
+Size of the network is 11
+Access to desired Node is proper
+Size of the network is 12
+Access to desired Node is proper
+Size of the network is 13
+Access to desired Node is proper
+Size of the network is 14
+a is:14
+Size of the network is 14
+b is:14
+Both chromosomes share the same node list
+Size of the network is 14
+Size of the network is 14
+The chromosome 1 have length = 14
+Size of the network is 14
+Size of the network is 14
+The chromosome 2 have length = 14
+Size of the network is 14
+Size of the network is 14
+The chromosome has length = 14
+Size of the network is 14

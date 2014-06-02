@@ -1,0 +1,57 @@
+#!/bin/csh -f
+# UNIX C Shell Script, written by Zhiyang Ong to run NetSim
+# @Enter each subdirectory to find Java Class files
+
+# Also see	@make
+# 			for UNIX command that can do this
+
+# ==============================================================
+
+# Define instance variables
+set numTwo = 2
+set numZero = 0
+
+# ==============================================================
+
+echo "recursive.csh called"
+
+# Search for Java Class files
+# IMPORTANT: ABSOLUTE PATH USED FOR THIS SCRIPT
+/data/fall2005/honors-proj/netsim/search.sh
+
+# For each directory found, perform a search in it
+
+# Number of entities in the current directory
+set numEntity = `ls -al | wc -l | awk '{ print $1 }'`
+echo "numEntity is $numEntity"
+
+# int counter = 2
+set counter = $numTwo
+# Any more subdirectories
+while ( $counter <= $numEntity )
+	# Assign the subdirectory name to the variable 'subdir'
+	set piz = p
+	set tempr = $counter$piz
+	set subdir = `ls -al | awk '{ print $9 }' | sed -n $tempr`
+
+	# Print the location of the file
+	pwd; echo $subdir
+
+	# Is this entity a subdirectory?
+	if ( -d $subdir ) then
+		# Enter the subdirectory
+		echo "subdir is $subdir"
+		cd $subdir
+
+		# Call the "./recursive.sh" UNIX Shell Script for
+		# that subdirectory
+# IMPORTANT: ABSOLUTE PATH USED FOR THIS SCRIPT
+		/data/fall2005/honors-proj/netsim/recursive.csh
+	endif
+
+	# ++counter
+	set cntr = `expr "$counter" + 1`
+	set counter = $cntr
+end
+
+# End of script
