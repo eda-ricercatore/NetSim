@@ -20,7 +20,7 @@ Its software architecture is organized into the following directories:
 6) population: implementation of the graph data structure in the "graph" subdirectory and some graph algorithms used to determine certain properties of the telecommunication networks;
 7) ecomp: implementation of the multi-objective evolutionary algorithm
 
-There are also other files, such as the README.md file (i.e., this file).
+There are also other files, such as the README.md file (i.e., this file). Where possible, unit test and module tests are provided in each software module/subdirectory.
 
 
 

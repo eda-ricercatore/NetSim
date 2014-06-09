@@ -11,14 +11,14 @@ It is primarily developed in Java, and has MATLAB scripts to process the experim
 
 It also uses a Makefile (you can also use the UNIX shell script) to set up and run this program.
 
-Its software architecture is organized into the following directories:
-1) utility: common functions that are used for different modules in the software;
-2) gui: the Graphical User Interface (GUI) for the software;
-3) tests: experimental test results;
-4) scripts: scripts for processing the experimental data in MATLAB;
-5) results: experimental test results;
-6) population: implementation of the graph data structure in the "graph" subdirectory and some graph algorithms used to determine certain properties of the telecommunication networks;
-7) ecomp: implementation of the multi-objective evolutionary algorithm
+Its software architecture is organized into the following directories:  
+1) utility: common functions that are used for different modules in the software;  
+2) gui: the Graphical User Interface (GUI) for the software;  
+3) tests: experimental test results;  
+4) scripts: scripts for processing the experimental data in MATLAB;  
+5) results: experimental test results;  
+6) population: implementation of the graph data structure in the "graph" subdirectory and some graph algorithms used to determine certain properties of the telecommunication networks;  
+7) ecomp: implementation of the multi-objective evolutionary algorithm  
 
 There are also other files, such as the README.md file (i.e., this file). Where possible, unit test and module tests are provided in each software module/subdirectory.
 
