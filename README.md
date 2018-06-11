@@ -44,7 +44,7 @@ This is the latest recent build that I can access. I was trying to modify the mu
 
 A research paper describing this work is available as a conference paper, which BibTeX entry is provided as follows.
 
-@inproceedings{Ong2005,
+	@inproceedings{Ong2005,
 	Address = {Brisbane, Australia},  
 	Author = {Ong, Zhiyang and Lo, Andy Hao-Wei and Berryman, Matthew and Abbott, Derek},  
 	Booktitle = {Proceedings of {SPIE}: Complex Systems},  
