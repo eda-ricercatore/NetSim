@@ -51,4 +51,7 @@ A research paper describing this work is available as a conference paper, which 
 
 [Further details of a thesis describing this work, including a set of presentation slides for the thesis defense and the research proposal are available](https://eda-ricercatore.github.io/ricerca/research-publications.html).
 
+[DOI to access source code of the repository](https://dx.doi.org/10.5281/zenodo.1286658)
+
+[![DOI](https://zenodo.org/badge/20389580.svg)](https://zenodo.org/badge/latestdoi/20389580)
 
